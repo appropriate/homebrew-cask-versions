@@ -8,7 +8,7 @@ cask 'goldencheetah-dev' do
   name 'GoldenCheetah (development release)'
   homepage 'https://www.goldencheetah.org/'
 
-	conflicts_with cask: :goldencheetah
+	conflicts_with cask: 'goldencheetah'
 
   app 'GoldenCheetah.app'
 end
